@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avalie a Casa dos Bebedouros</title>
+<meta name="description" content="Conte como foi seu atendimento na Casa dos Bebedouros, em Salto/SP, e peça o aviso de troca do refil pelo WhatsApp.">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../img/logo-icone.svg">
+<link rel="icon" type="image/png" href="../img/logo-icone.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../estilo.css">
+<style>
+  body{background:var(--creme)}
+  .avaliar{min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:32px 16px 40px;text-align:center}
+  .avaliar .logo{height:54px;width:auto;margin-bottom:32px}
+  .avaliar h1{max-width:18ch;margin:0 auto;font-size:clamp(30px,8vw,44px)}
+  .avaliar .lead{margin:14px auto 0;max-width:34ch;font-size:18px}
+  .opcoes{display:flex;flex-direction:column;gap:16px;width:100%;max-width:420px;margin-top:32px}
+  .opcao{display:block;text-decoration:none;background:#fff;border:2px solid var(--folha-claro);border-radius:18px;padding:20px 20px 18px;color:var(--tinta);font-weight:600;text-align:left}
+  .opcao:hover{border-color:var(--folha)}
+  .opcao strong{display:flex;align-items:center;gap:10px;font-family:var(--titulo);font-weight:400;font-size:23px;line-height:1.15;color:var(--folha)}
+  .opcao span{display:block;margin-top:6px;font-size:16px;line-height:1.45}
+  .opcao.principal{background:var(--folha);border-color:var(--folha);color:#fff}
+  .opcao.principal strong{color:#fff}
+  .opcao.principal:hover{background:var(--verde);border-color:var(--verde)}
+  .estrelas{color:#F2B705;letter-spacing:2px;font-size:20px;font-family:var(--texto)}
+  .ic{width:26px;height:26px;flex:none}
+  .nota{margin-top:28px;max-width:40ch;font-size:14px;color:#4a5e4d}
+  .voltar{margin-top:18px;font-size:15px}
+</style>
+</head>
+<body>
+<main class="avaliar">
+  <a href="../"><img class="logo" src="../img/logo-horizontal.svg" alt="Casa dos Bebedouros"></a>
+
+  <h1>Obrigado pela visita!</h1>
+  <p class="lead">Sua opinião ajuda outras pessoas de Salto a encontrar a loja.</p>
+
+  <div class="opcoes">
+    <a class="opcao principal" href="https://search.google.com/local/writereview?placeid=ChIJh8YiWuxRzpQRbyVriUJE6b8">
+      <strong>Avaliar no Google <span class="estrelas" aria-hidden="true">★★★★★</span></strong>
+      <span>Conte como foi o seu atendimento. Leva menos de um minuto.</span>
+    </a>
+
+    <a class="opcao" href="https://wa.me/5511975571555?text=Quero%20receber%20o%20aviso%20de%20troca%20do%20refil">
+      <strong><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.7s-6 6.6-6 11a6 6 0 0 0 12 0c0-4.4-6-11-6-11z"/></svg>Aviso de troca do refil</strong>
+      <span>Receba no WhatsApp um lembrete quando o seu refil completar 6 meses.</span>
+    </a>
+  </div>
+
+  <p class="nota">O aviso é enviado pelo WhatsApp da loja, (11) 97557-1555. Para parar de receber, é só tocar em "Não quero mais avisos".</p>
+  <p class="voltar"><a href="../">Conheça a Casa dos Bebedouros</a></p>
+</main>
+</body>
+</html>
